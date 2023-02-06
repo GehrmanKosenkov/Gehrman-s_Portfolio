@@ -1,1 +1,48 @@
+/*
+
+Exploring, Cleaning, Organizing And Analyzing agricultural data by USDA using SQL. Two tables used: 1. psd_grains_pulses 2.psd_oilseeds.
+It should be noted that the tables have identical columns' names and those columns go in the same order. 
+
+Skills Used: CTE, JOIN, subqueries 
+
+*/
+
+
+-----------------------------------------------------------------------------
+
+-- Exploring Data 
+
+#First, learning about the contents of the tables using SELECT DISTINCT 
+
+SELECT DISTINCT Commodity_Description
+FROM hello.psd_grains_pulses
+
+#Result:'Barley','Corn','Millet','Mixed Grain','Oats','Rice, Milled'
+
+
+SELECT DISTINCT Commodity_Description
+FROM hello.psd_oilseeds
+
+#Result: 'Meal, Copra', 'Meal, Cottonseed', 'Meal, Fish','Meal, Palm Kernel', 'Meal, Peanut', 'Meal, Rapeseed', 'Meal, Soybean', 'Meal, Soybean (Local)', 
+'Meal, Sunflowerseed'
+
+#Using SELECT DISTINCT for other important columns. 
+
+#Market_Year: 1)psd_oilseeds: 1961-2021 2) psd_grains_pulses: 1960 - 2020 !!!Slightly different!!!
+
+#Attribute_Description 
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
 
