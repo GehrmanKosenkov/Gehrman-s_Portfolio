@@ -201,3 +201,8 @@ JOIN
  FROM hello.us_annual_precipitation) Y
  ON X.Market_Year = Y.Market_Year
  SET Annual_Precipitation = Precipitation
+ 
+ --Now the file is ready for further correlation analysis in Python
+ 
+ 
+ 
